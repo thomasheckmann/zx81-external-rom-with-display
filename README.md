@@ -22,6 +22,6 @@ BOM for v1.0:
 - [ ] 100nF Ceramic Capacitor x 6
 
 ## Planned for v1.1
-Only some small changed planned for v1.1 - mostly the NMI generator fix. When running the ZX80 ROM the NMI generator is not turned off, which means the initial state of the generator is unpredictible. For this reason running the ZX80 not always turns out to work, a few on/off should make it work. A simple fix is to make sure the NMI generator is turned off, by using a few resistors.
+Only some small changes are planned for v1.1 - mostly the NMI generator fix. When running the ZX80 ROM the NMI generator is not turned off, which means the initial state of the generator is unpredictible. For this reason running the ZX80 not always turns out to work, a few on/off should make it work. A simple fix is to make sure the NMI generator is turned off, by using a few resistors.
 
 Will change the diode from 1N4148 to BAT85
