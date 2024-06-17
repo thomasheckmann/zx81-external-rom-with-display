@@ -24,4 +24,6 @@ BOM for v1.0:
 ## Planned for v1.1
 Only some small changes are planned for v1.1 - mostly the NMI generator fix. When running the ZX80 ROM the NMI generator is not turned off, which means the initial state of the generator is unpredictible. For this reason running the ZX80 not always turns out to work, a few on/off should make it work. A simple fix is to make sure the NMI generator is turned off, by using a few resistors.
 
-Will change the diode from 1N4148 to BAT85
+Will change the diode from 1N4148 to BAT85, as recommended for this type of usage.
+
+Replace IC socket with ZIF Test socket, as it turns out that I'm swapping out EEPROMs based on needs and usage.
